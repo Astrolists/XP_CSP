@@ -1,0 +1,20 @@
+xander=900
+print(xander)
+ucas=3999
+print(ucas)
+number=10
+print(number)                                       
+year = 2025
+print(year)
+number2=500
+print(number2)
+eyecolor=300
+print(eyecolor)                 
+breakfast=20
+print(breakfast)            
+age=14
+print(age)
+FavoriteColor=11
+print(FavoriteColor)              
+Subject=1444
+print(Subject)
