@@ -1,5 +1,5 @@
 name = input("What is your name?")
-print("hello", name)
+print("hello,", name)
 #treyson has 12 apples, he has 5 friends to give apples to. how many apples does each friend get?
 apples = 12
 friends = 5
@@ -17,6 +17,18 @@ Age3 = 40
 
 Age4 = 40
 
+num_one = int(input("Tell me a number: \n"))
+num_two = float(input("tell me another number: \n"))
+
+num_one += num_two
+num_one *= num_two
+num_one -= num_two
+num_one /= num_two
+num_one **= num_two
+num_one //= num_two
+num_one %= num_two
+
+
 average=Age1+Age2+Age3+Age4
 print("The average age is", average)
 
@@ -28,10 +40,12 @@ print("Subtraction(-): ", Age4-Age2)
 
 print("Multiplication(*): ", Age3*Age1)
 
-print("Divion(/): ", Age2/Age3)
+print("Divion(/): ", round(Age2/Age3, 2)) #round (number to round, number of decimal places)
 
 print("Exponents(**): ", Age3**Age4)
 
 print("Integer Division(//): ", Age4//Age1)
 
 print("Modulo(%): ", Age4%Age1)
+
+print("7-24/8*4+6=",7-24/8*4+6 )
