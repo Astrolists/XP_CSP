@@ -7,4 +7,3 @@ print("Hello,", first_name, last_name)
 full_name = first_name + last_name
 sentence = 'the quick brown fox jumps over the lazy dog'
 
-print("Did you know that", sentence)
