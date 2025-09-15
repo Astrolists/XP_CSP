@@ -12,4 +12,4 @@ word5 = input("Past tense verb \n")
 
 word6 = input("Present tense verb \n")
 
-print("It was a " + word1 + ", cold november day. I woke up to the smell of, " + word3 +  " roasting in the " + word4 + " downstairs. I " + word5 + "down the stairs to see if i could help.")
+print("It was a " + word1 + ", cold november day. I woke up to the smell of, " + word3 +  " roasting in the " + word4 + " downstairs. I " + word5 + " down the stairs to see if i could help.")
