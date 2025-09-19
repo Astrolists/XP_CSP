@@ -15,7 +15,7 @@ now = datetime.datetime.now()
 hour = now.hour
 print(f"the hour, converted to military time, is: {hour}")
 
-if hour < 11:
+if hour < 11 and hour > 0:
     print ("It is morning!")
 elif hour == 12:
     print ("its currently noon!")
