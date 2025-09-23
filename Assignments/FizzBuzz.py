@@ -1,10 +1,11 @@
 #XP 7th Fizz Buzz
 
 for x in range (1, 51):
-    print(x)
-
-
-x = 1
-
-while x is
-
+    if x% 3 == 0 and x%5 == 0:
+        print("Fizzbuzz")
+    elif x% 3 == 0:
+        print("Fizz")
+    elif x% 5 == 0:
+        print("Buzz")
+    else:
+        print(x)
