@@ -1,15 +1,15 @@
 #XP 7th Loops Notes
 
-#Drinks = ["Milk", "Soda", "Water", "Coffee", "Tea"]
+Drinks = ["Milk", "Soda", "Water", "Coffee", "Tea"]
 
-#for Drinks in Drinks:
-#    print(f"{Drinks} is my favorite beverage")
-#    print("Hi!")
+for Drinks in Drinks:
+    print(f"{Drinks} is my favorite beverage")
+ 
 
 
-#for x in range (1, 21):
-#    print(x)
-#
+for x in range (1, 21):
+    print(x)
+
 
 
 

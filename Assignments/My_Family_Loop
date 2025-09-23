@@ -1,0 +1,5 @@
+#XP 7TH Family Loop Assignment
+
+Family = ["Elena", "Davina", "Erika", "Gabi", "Craig"]
+for Family in Family:
+    print("Hello,", {Family})
