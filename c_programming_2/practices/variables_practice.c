@@ -3,7 +3,8 @@
 
 int main (void){
     char name[6] = "Xander";
-    int number = 67;
+    int lucky_number= 67;
+    float number = 67.67;
     char grade[1] = "A";
     char breakfast[7] = "Nothing";
     int year = 2025;
@@ -13,15 +14,15 @@ int main (void){
     char eye_color[5] = "Brown";
     int age = 15;
 
-    printf("%s" = name);
-    printf(number);
-    printf(grade);
-    printf(year);
-    printf(fav_subject);
-    printf(favorite_color);
-    printf(school_name);
-    printf(eye_color);
-    printf(age);
+    printf("%s \n", name);
+    printf("%d \n", number);
+    printf("%s \n", grade);
+    printf("%d \n", year);
+    printf("%s \n", fav_subject);
+    printf("%s \n", favorite_color);
+    printf("%s \n",school_name);
+    printf("%s \n",eye_color);
+    printf("%d \n",age);
 
 
 
