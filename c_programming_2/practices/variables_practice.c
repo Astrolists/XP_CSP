@@ -3,8 +3,8 @@
 
 int main (void){
     char name[6] = "Xander";
-    int lucky_number= 67;
-    float number = 67.67;
+    int lucky_number= 1;
+    float number = 1.1;
     char grade[1] = "A";
     char breakfast[7] = "Nothing";
     int year = 2025;
