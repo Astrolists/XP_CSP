@@ -25,6 +25,10 @@ int main(void){
     printf("What is your monthly grocery bill?");
     scanf("%f", &monthly_groceries);
 
+    int rent_percentage = (monthly_rent * 100) / monthly_income;
+    int utility_percentage = (monthly_rent * 100) / monthly_income;
+    int grocery_percentage = (monthly_groceries * 100) / monthly_income;
+    int transportation_percentage = (monthly_transportation * 100)/ monthly_income;
     
 
 
