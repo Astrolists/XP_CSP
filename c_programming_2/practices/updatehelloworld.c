@@ -3,6 +3,8 @@
 #include <stdio.h>
 
 void welcome(char*name){
-    printf("Hello" "%s\n");
+    printf("Hello" "%s\n", name);
+
     
 }
+int main
